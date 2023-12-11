@@ -35,3 +35,4 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
+// same as memcpy and it handel the overlab
