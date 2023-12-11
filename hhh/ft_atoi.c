@@ -9,7 +9,7 @@
 /*   Updated: 2023/11/26 11:45:19 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+//string to int//
 #include "libft.h"
 
 int	ft_atoi(const char *s)
