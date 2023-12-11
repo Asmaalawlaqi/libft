@@ -32,8 +32,8 @@ int	ft_atoi(const char *s)
 	while (s[i] >= '0' && s[i] <= '9')
 	{
 		if (result >= LONG_MAX / 10 && sign == 1)
-			return (-1);
-		else if (result >= LONG_MAX / 10 && sign == -1)
+			return (-1);{
+		else if (result >= LONG_MAX / 10 && sign == -1) // long_max is for overflow
 			return (0);
 		result = result * 10 + (s[i] - '0');
 		i++;
