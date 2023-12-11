@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-void	*ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len) 
 {
-	size_t	i;
+	size_t	i; 
 	char	*ab;
 
 	ab = (char *)b;
@@ -26,3 +26,10 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+//function fills a block of memory with a specified value byte by byte and returns the original pointer to the memory block.
+
+
+
+
+
+
