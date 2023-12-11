@@ -25,4 +25,4 @@ void	*ft_calloc(size_t count, size_t size)
 		ft_bzero(ptr, totalbytes);
 	return (ptr);
 }
-// function is used to allocate memory 
+// function is used to allocate memory  initializes the entire allocated memory block to zero.
