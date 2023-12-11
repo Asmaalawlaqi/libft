@@ -25,3 +25,4 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
+//same as putstr with new line at the end
